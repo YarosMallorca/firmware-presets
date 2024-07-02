@@ -8,7 +8,7 @@
 #$ DESCRIPTION: Yaros FPV Tune for 3.5 Inch Drones
 #$ DESCRIPTION:
 #$ DESCRIPTION: Intended to be used with 3.5 inch drones.
-#$ DESCRIPTION: ALWAYS use 
+#$ DESCRIPTION: ALWAYS use Bidirectional DHOT & RPM FILTERING Try at YOUR OWN RISK.
 
 
 set dterm_lpf1_dyn_min_hz = 70
