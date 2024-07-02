@@ -20,7 +20,7 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: <img src="https://i.ibb.co/GtD9WMm/Screenshot-2024-06-20-195831.jpg" style="width:100%"/>
 #$ DESCRIPTION: 
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/472
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/474
 
 #$ INCLUDE: presets/4.4/osd/defaults.txt
 
@@ -30,7 +30,6 @@ set osd_craft_name_pos = 21
 set osd_crosshairs_pos = 345
 set osd_current_pos = 2529
 set osd_disarmed_pos = 6614
-set osd_displayport_device = MSP
 set osd_flymode_pos = 3630
 set osd_link_quality_pos = 7692
 set osd_mah_drawn_pos = 6242
