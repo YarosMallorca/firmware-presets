@@ -1,0 +1,80 @@
+#$ TITLE: Yaros FPV Multi Rates
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: RATES, YAROSFPV, CINE, FREESTYLE
+#$ AUTHOR: YarosFPV (Yaroslav Syubayev) 
+
+#$ DESCRIPTION: Yaros FPV Multi-Speed Rates
+#$ DESCRIPTION:
+#$ DESCRIPTION: Intended to be used with Freestyle and Cinematic drones.
+#$ DESCRIPTION: Includes 3 different rates for different flight styles.
+#$ DESCRIPTION: You can bind them to a switch on your transmitter.
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = CINE
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 7
+set pitch_rc_rate = 7
+set yaw_rc_rate = 7
+set roll_expo = 10
+set pitch_expo = 10
+set yaw_expo = 5
+set roll_srate = 36
+set pitch_srate = 36
+set yaw_srate = 36
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+
+rateprofile 1
+
+set rateprofile_name = MID
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 10
+set pitch_rc_rate = 10
+set yaw_rc_rate = 10
+set roll_expo = 30
+set pitch_expo = 30
+set yaw_expo = 15
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+
+
+rateprofile 2
+
+set rateprofile_name = FAST
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 10
+set pitch_rc_rate = 10
+set yaw_rc_rate = 10
+set roll_expo = 60
+set pitch_expo = 60
+set yaw_expo = 30
+set roll_srate = 120
+set pitch_srate = 120
+set yaw_srate = 120
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
